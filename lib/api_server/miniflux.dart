@@ -1,4 +1,4 @@
-import 'dart:html';
+import 'package:yet_another_feed_reader/models/user.dart';
 
 class Miniflux {
   String server_url;
@@ -14,6 +14,4 @@ class Miniflux {
   Future<User> get fullUser {
     // do http stuff to return perhaps something meaningful based on future info idk
   }
-
-
 }
