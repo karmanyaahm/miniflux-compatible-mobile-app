@@ -5,7 +5,6 @@ class User {
   String _password;
 
   //possibly important info
-
   String _theme;
   String _sortingDir; //could be bool?
 
