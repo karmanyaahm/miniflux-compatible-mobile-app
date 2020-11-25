@@ -1,3 +1,3 @@
-String username = 'appdev';
-String password = 'populate-removing-herring';
-String server_addr = 'http://homenet.malhotra.cc/rss/'
+String username = 'nice';
+String password = 'try';
+String server_addr = 'https://youtu.be/dQw4w9WgXcQ';
