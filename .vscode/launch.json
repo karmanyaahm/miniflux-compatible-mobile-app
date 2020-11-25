@@ -1,0 +1,20 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {//create a simple console project in dev/yet_another_feed_reader and symlink the 
+      "name": "raw dart",
+      "type": "dart",
+      "request": "launch",
+      "program": "dev/bin/yet_another_feed_reader.dart",
+
+    },
+    {
+      "name": "flutter",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}

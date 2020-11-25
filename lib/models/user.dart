@@ -12,6 +12,22 @@ class User {
   //other maybe useful
   String _timezone;
 
+  String get server {
+    //must not end with / for api reasons
+    if (_server.substring(_server.length - 1) == '/') {
+      _server = _server.substring(0, _server.length - 1);
+    }
+    return _server;
+  }
+
+  String get name {
+    return _name;
+  }
+
+  String get password {
+    return _password;
+  }
+
   User(
     this._server,
     this._name,
